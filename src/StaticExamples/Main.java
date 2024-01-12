@@ -1,5 +1,4 @@
 package StaticExamples;
-import StaticExamples.StaticBlocks;
 
 public class Main {
     public static void main(String[] args) {
