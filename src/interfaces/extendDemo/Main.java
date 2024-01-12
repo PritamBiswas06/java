@@ -1,6 +1,7 @@
 package interfaces.extendDemo;
 
-public class Main implements B{
+public abstract class Main implements B{
+    abstract void fu();
     @Override
     public void fun() {
 
