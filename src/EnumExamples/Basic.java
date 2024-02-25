@@ -2,6 +2,8 @@ package EnumExamples;
 
 import interfaces.extendDemo.A;
 
+import java.util.Arrays;
+
 public class Basic {
     enum Week implements X{
         Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday;
@@ -16,6 +18,7 @@ public class Basic {
         }
     }
 
+
     public static void main(String[] args) {
         Week week;
         week=Week.Monday;
@@ -25,5 +28,6 @@ public class Basic {
 //        }
 //        System.out.println(week);
 //        System.out.println(week.ordinal());
+//        System.out.println(Arrays.toString(Week.values()));
     }
 }
